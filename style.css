@@ -43,6 +43,10 @@ h2 {
     place-items: center;
     row-gap:  40px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 .container {
     display: grid;
     gap: 50px;
