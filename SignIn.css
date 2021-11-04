@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+}
+.container {
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+
+    grid-template-columns: 450px;
+    grid-template-rows: 350px;
+    
+    justify-content: center;
+    align-content: center;
+}
+.box-regi {
+    display: grid;
+    place-items: center;
+    border: 10px solid;
+    border-color: gold;
+    border-radius: 25px;
+}
+.ico {
+    width: 120px;
+    height: 120px;
+    margin-top: -75px;
+    border: 10px solid;
+    border-color: gold;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #121212;
+}
+input{    
+    font-size: 18px;
+    border: 2px solid gold;
+    background: #242323;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+input::-webkit-input-placeholder {
+    color: white;
+  }
+input::-moz-placeholder {
+    color: white;
+}
+.button {
+    margin-top: 10px;
+    text-align: center;
+}
+.button input {
+    padding: 10px;
+    border-radius: 20px;
+}
+.text {
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация для студента</title>
+    <link rel="stylesheet" href="Sign_St.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-regi">
+            <img class="ico" src="img/student_gold.svg">
+            <h1>Регистрация</h1>
+            <form>
+                <p><input type="text" name="surname" size="25" placeholder="Фамилия" id=""></p>
+                <p><input type="text" name="name" size="25" placeholder="Имя" id=""></p>
+                <p><input type="text" name="patronymic" size="25" placeholder="Отчество" id=""></p>
+                <p class="radio"><input type="radio" name="sex" value="man" id="">Мужчина
+                <input type="radio" name="sex" value="women" id="">Женщина</p>
+                <p><input type="date" id=""></p>
+                <p><input type="email" name="email" size="25" placeholder="Почта" id=""></p>
+                <p><input type="tel" class="tel" name="tel" size="12" placeholder="Контактный номер телефона" id=""></p>
+                <p><input type="text" name="university" placeholder="Учебное заведение" id=""></p>
+                <p><input type="text" name="direction" placeholder="Направление" id=""></p>
+                <p><input type="text" name="specialization" placeholder="Специальность" id=""></p>
+                <p class="text">Степень:<br><select name="degree" id="">
+                    <option selected value="baccalaureate">Бакалавриат</option>
+                    <option value="magistracy">Магистратура</option>
+                    <option value="postgraduate/residency">Аспирантура/Ординатура</option>
+                </select></p>
+                <p class="text">Курс: <select name="course" id="">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select></p>
+                <p class="button"><input type="submit" value="Отправить" id=""></p>
+            </form>
+        </div>
+        <div class="box-info">Здесь будет слайд-шоу с информацией о данном ресурсе</div>
+    </div>
+</body>
+</html>

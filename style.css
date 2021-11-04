@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #121212;
+}
+h1 {
+    position: absolute;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    font-size: 45px;
+    transform: translate(-50%, 0px);
+    left: 50%;
+    top: 80px;
+}
+h2 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 38px;
+}
+[class^="box-"] {
+    background-color: #ffd700;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    /*border: 8px solid;
+    border-color: #e6c200;*/
+    transition-property: filter;
+    transition-duration: 0.30s;
+    transition-timing-function: linear;
+}
+[class^="box-"]:hover {
+    filter: drop-shadow(0 0 20px #ffd700);
+}
+[class^="box-"] div {
+    display: grid;
+    place-items: center;
+    row-gap:  40px;
+}
+.container {
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 500px;
+    
+    justify-content: center;
+    align-content: center;
+}
+img {
+    width: 160px;
+    height: 160px;
+}
