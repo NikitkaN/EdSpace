@@ -74,10 +74,3 @@ input::-moz-placeholder {
     color: white;
     border: 10px dashed gold;
 }
-@media (max-width: 1600px) {
-    .container {
-        font-size: 30px;
-        grid-template-columns: 400px 600px;
-        grid-template-rows: 6200px;
-    }
-}
