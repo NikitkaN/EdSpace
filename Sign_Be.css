@@ -20,8 +20,8 @@ h1 {
     gap: 50px;
     height: 100vh;
 
-    grid-template-columns: 450px 800px;
-    grid-template-rows: 720px;
+    grid-template-columns: 400px 800px;
+    grid-template-rows: 650px;
     
     justify-content: center;
     align-content: center;
@@ -65,6 +65,14 @@ input::-moz-placeholder {
 .button input {
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    text-decoration: none;
+}
+.button input:hover {
+    opacity: 0.7;
 }
 .text {
     color: white;
@@ -73,6 +81,42 @@ input::-moz-placeholder {
 .box-info {
     color: white;
     border: 10px dashed gold;
+    padding: 30px;
+    text-align: center;
 }
-
-/*Test*/
+.back {
+    max-width: 55px;
+    max-height: 55px;
+    position: absolute;
+    cursor: pointer;
+    margin: 45px 0px 0px 45px;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+.back:hover {
+    opacity: 0.7;
+}
+.choice {
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    color: white;
+}
+.choice div {
+    padding: 15px;
+    background-color: #242323;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+.choice div:hover {
+    opacity: 0.7;
+}
+.one {
+    border-radius: 15px 0px 0px 15px;
+}
+.three {
+    border-radius: 0px 15px 15px 0px;
+}

@@ -58,7 +58,20 @@ a {
     justify-content: center;
     align-content: center;
 }
-img {
+div img {
     width: 160px;
     height: 160px;
+}
+.back {
+    max-width: 55px;
+    max-height: 55px;
+    position: absolute;
+    cursor: pointer;
+    margin: 45px 0px 0px 45px;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+}
+.back:hover {
+    opacity: 0.7;
 }
