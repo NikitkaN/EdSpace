@@ -105,6 +105,6 @@ input::-moz-placeholder {
     .container {
         font-size: 30px;
         grid-template-columns: 400px 600px;
-        grid-template-rows: 800px;
+        grid-template-rows: 700px;
     }
 }
