@@ -65,6 +65,14 @@ input::-moz-placeholder {
 .button input {
     padding: 8px 15px;
     border-radius: 20px;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    text-decoration: none;
+}
+.button input:hover {
+    opacity: 0.7;
 }
 .text {
     color: white;
@@ -73,13 +81,13 @@ input::-moz-placeholder {
 a {
     font-size: 18px;
     color: gold;
-    transition-property: filter;
-    transition-duration: 0.10s;
+    transition-property: opacity;
+    transition-duration: 0.15s;
     transition-timing-function: linear;
     text-decoration: none;
 }
 a:hover {
-    filter: drop-shadow(0 0 5px #ffd700);
+    opacity: 0.7;
 }
 .reg {
     margin-bottom: 15px;
